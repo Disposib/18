@@ -1,0 +1,40 @@
+.box2{grid-area: main;}
+.box3{grid-area: first;}
+.box4{grid-area: second;}
+.box5{grid-area: footer;}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 25% 25% 25%;
+    grid-template-rows: 100% 35% 35%;
+}
+
+.box1{
+    margin: 50px;
+    width: 700px;
+    padding: 15px;
+}
+.text2{
+    margin-top: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+        "main main main first first first"
+        "main main main second second second"
+        "footer footer footer footer footer footer";
+}
+.box1{
+    background-color: grey;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: red;
+}
